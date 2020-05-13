@@ -12,3 +12,10 @@ function stylesheets() {
 add_action('wp_enqueue_scripts', 'stylesheets');
 
 add_theme_support( 'post-thumbnails' );
+
+register_nav_menus(
+    array(
+        'menu' => __('Menu', 'theme'),
+    )
+);
+add_theme_support('menus');

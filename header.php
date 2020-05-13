@@ -38,7 +38,7 @@
             <?php 
                 wp_nav_menu(
                     array(
-                        'menu_class' => 'navigation-main',
+                        'theme_location' => 'menu',
                     )
                 ); 
             ?>
